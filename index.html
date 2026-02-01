@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahnarzt Uncu Hakan | Hamm - Moderne Zahnmedizin</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body class="bg-white text-slate-800">
+
+    <nav class="fixed w-full z-50 nav-blur border-b border-transparent transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-blue-200">U</div>
+                <span class="text-xl font-extrabold tracking-tight text-slate-900 uppercase">Uncu <span class="text-blue-600">Hakan</span></span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-bold text-sm uppercase tracking-wider">
+                <a href="#home" class="hover:text-blue-600 transition">Startseite</a>
+                <a href="#services" class="hover:text-blue-600 transition">Leistungen</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Kontakt</a>
+            </div>
+            <a href="tel:02381494492" class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold text-sm hover:bg-blue-700 transition shadow-lg shadow-blue-200 btn-pulse">
+                Anrufen
+            </a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-gradient pt-40 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div id="status-badge" class="inline-block px-4 py-1.5 rounded-full text-white text-xs font-bold uppercase tracking-widest shadow-sm">
+                    Lade Status...
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.1]">
+                    Gesunde Zähne <br><span class="text-blue-600">Schönes Lächeln.</span>
+                </h1>
+                <p class="text-lg text-slate-600 leading-relaxed max-w-lg">
+                    Ihre Zahnarztpraxis in Hamm. Wir kombinieren modernste Technik mit individueller Betreuung für Ihre bestmögliche Zahngesundheit.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="tel:02381494492" class="bg-slate-900 text-white px-10 py-5 rounded-2xl text-center font-bold text-lg hover:bg-slate-800 transition-all transform hover:-translate-y-1 shadow-xl">
+                        Termin anfragen
+                    </a>
+                    <div class="flex items-center space-x-4 bg-white/50 p-4 rounded-2xl border border-white">
+                        <div class="flex text-yellow-400 font-bold">★★★★★</div>
+                        <span class="font-bold text-slate-700 text-sm">4.3/5 Google Reviews</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-10 bg-blue-400/10 rounded-full blur-3xl"></div>
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000" class="relative rounded-[2.5rem] shadow-2xl border-[12px] border-white object-cover h-[500px] w-full" alt="Clinic Interior">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Unsere Leistungen</h2>
+                    <p class="text-slate-500 italic text-lg">Qualität und Ästhetik in jedem Detail.</p>
+                </div>
+                <div class="h-1 w-20 bg-blue-600 mb-4"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="card-hover p-10 bg-slate-50 rounded-[2rem] border border-slate-100">
+                    <div class="text-4xl mb-6">🦷</div>
+                    <h3 class="text-xl font-bold mb-4">Vorsorge</h3>
+                    <p class="text-slate-500 leading-relaxed">Professionelle Zahnreinigung und regelmäßige Kontrollen für dauerhaften Schutz.</p>
+                </div>
+                <div class="card-hover p-10 bg-slate-50 rounded-[2rem] border border-slate-100">
+                    <div class="text-4xl mb-6">✨</div>
+                    <h3 class="text-xl font-bold mb-4">Ästhetik</h3>
+                    <p class="text-slate-500 leading-relaxed">Modernes Bleaching und hochwertige Veneers für Ihr perfektes Erscheinungsbild.</p>
+                </div>
+                <div class="card-hover p-10 bg-slate-50 rounded-[2rem] border border-slate-100">
+                    <div class="text-4xl mb-6">🏥</div>
+                    <h3 class="text-xl font-bold mb-4">Zahnersatz</h3>
+                    <p class="text-slate-500 leading-relaxed">Implantate und Brücken mit höchster Präzision für ein natürliches Gefühl.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl grid md:grid-cols-2">
+                <div class="p-12 md:p-20 space-y-10">
+                    <h2 class="text-4xl font-bold text-white leading-tight">Besuchen Sie <br>uns in Hamm</h2>
+                    <div class="space-y-8">
+                        <div class="flex items-center space-x-6">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-xl">📍</div>
+                            <p class="text-slate-300">Fangstraße 26, 59077 Hamm</p>
+                        </div>
+                        <div class="flex items-center space-x-6 text-blue-400 font-bold text-2xl">
+                            <div class="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white text-xl">📞</div>
+                            <a href="tel:02381494492">02381 494492</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 p-12 md:p-20 border-l border-white/10">
+                    <h3 class="text-2xl font-bold text-white mb-8">Öffnungszeiten</h3>
+                    <div class="space-y-4 text-slate-300 font-medium">
+                        <div class="flex justify-between border-b border-white/5 pb-3"><span>Mo, Di, Do</span> <span class="text-white">08:00 – 18:00</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-3"><span>Mittwoch</span> <span class="text-white">08:00 – 12:00</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-3"><span>Freitag</span> <span class="text-white">08:00 – 15:00</span></div>
+                        <div class="flex justify-between text-red-400"><span>Wochenende</span> <span>Geschlossen</span></div>
+                    </div>
+                    <p class="mt-8 text-xs text-slate-500 uppercase tracking-widest leading-relaxed">
+                        Termine nach telefonischer Vereinbarung. <br>LGBTQ+ Friendly Practice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto px-6 border-t border-slate-100 pt-12">
+            <p>&copy; 2026 Uncu Hakan Zahnarzt. Alle Rechte vorbehalten. | <a href="#" class="hover:text-blue-600">Impressum</a> | <a href="#" class="hover:text-blue-600">Datenschutz</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
